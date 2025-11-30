@@ -11,7 +11,7 @@ const Technology = () => {
   ];
 
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="technology" className="py-24 relative overflow-hidden">
       {/* Background neural network effect */}
       <div className="absolute inset-0 opacity-10">
         <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -53,7 +53,7 @@ const Technology = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            <span className="text-gradient">AI Model</span> & Technology
+            <span className="text-neon-cyan">AI Model</span> & Technology
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Cutting-edge artificial intelligence designed specifically for banking network security

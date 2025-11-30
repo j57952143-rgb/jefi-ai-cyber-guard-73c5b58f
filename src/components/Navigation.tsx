@@ -9,9 +9,11 @@ const Navigation = () => {
 
   const navLinks = [
     { label: "Problem", href: "#problem" },
+    { label: "Solution", href: "#solution" },
     { label: "Demo", href: "#demo" },
     { label: "Technology", href: "#technology" },
     { label: "Team", href: "#team" },
+    { label: "Roadmap", href: "#roadmap" },
   ];
 
   useEffect(() => {

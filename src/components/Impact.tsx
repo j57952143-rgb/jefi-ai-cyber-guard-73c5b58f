@@ -68,7 +68,7 @@ const Impact = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            <span className="text-gradient">Impact</span> & Financial Advantages
+            <span className="text-neon-cyan">Impact</span> & Financial Advantages
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Measurable results that protect your bottom line
@@ -88,7 +88,7 @@ const Impact = () => {
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-neon-cyan/20 to-neon-pink/20 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                   <stat.icon className="w-8 h-8 text-neon-cyan" />
                 </div>
-                <div className="font-display text-4xl md:text-5xl font-bold text-neon-cyan mb-2 glow-text-cyan">
+                <div className="font-display text-4xl md:text-5xl font-bold text-neon-cyan mb-2">
                   {stat.prefix}{count}{stat.suffix}
                 </div>
                 <p className="text-muted-foreground font-display text-sm tracking-wider">
