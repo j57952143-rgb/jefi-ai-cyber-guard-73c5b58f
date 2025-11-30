@@ -44,8 +44,8 @@ const Hero = () => {
           className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 opacity-0 animate-fade-in"
           style={{ animationDelay: "0.3s" }}
         >
-          <span className="text-gradient">JeFi AI</span>
-          <span className="block text-2xl md:text-3xl lg:text-4xl mt-4 text-foreground/90 font-medium">
+          <span className="text-neon-cyan">JeFi AI</span>
+          <span className="block text-2xl md:text-3xl lg:text-4xl mt-4 text-foreground font-medium">
             Real-Time AI-Powered Network Protection for Banks
           </span>
         </h1>

@@ -48,7 +48,7 @@ const Team = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            Meet the <span className="text-gradient">Team</span>
+            Meet the <span className="text-neon-purple">Team</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             The innovators behind JeFi AI

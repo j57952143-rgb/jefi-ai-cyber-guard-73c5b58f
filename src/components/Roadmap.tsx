@@ -36,13 +36,13 @@ const Roadmap = () => {
   ];
 
   return (
-    <section className="py-24 relative">
+    <section id="roadmap" className="py-24 relative">
       <div className="absolute inset-0 cyber-grid opacity-10" />
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            Project <span className="text-gradient">Roadmap</span>
+            Project <span className="text-neon-purple">Roadmap</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Our journey from concept to production
@@ -86,7 +86,7 @@ const Roadmap = () => {
 
                   {/* Label */}
                   <h3 className={`font-display text-lg font-bold mb-2 ${
-                    stage.status === "current" ? "text-neon-cyan glow-text-cyan" : "text-foreground"
+                    stage.status === "current" ? "text-neon-cyan" : "text-foreground"
                   }`}>
                     {stage.title}
                     {stage.status === "current" && (

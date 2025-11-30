@@ -8,10 +8,10 @@ const Demo = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            See <span className="text-gradient">JeFi AI</span> in Action
+            See <span className="text-neon-cyan">JeFi AI</span> in Action
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Watch how our AI-powered system detects and prevents network threats in real-time
+            Watch how our AI detects and prevents network threats in real-time
           </p>
         </div>
 
@@ -35,6 +35,11 @@ const Demo = () => {
               </div>
             </div>
           </div>
+          
+          {/* Video caption */}
+          <p className="text-center text-muted-foreground mt-6 max-w-2xl mx-auto">
+            The demo shows real-time packet capture, AI anomaly detection, and instant alert generation when suspicious activity is detected.
+          </p>
         </div>
 
         {/* Feature highlights below video */}
@@ -43,21 +48,21 @@ const Demo = () => {
             <div className="w-12 h-12 rounded-full bg-neon-cyan/10 flex items-center justify-center mx-auto mb-4">
               <span className="font-display text-lg text-neon-cyan">01</span>
             </div>
-            <h3 className="font-display text-sm text-neon-cyan mb-2">PACKET CAPTURE</h3>
+            <h3 className="font-display text-sm text-foreground mb-2">PACKET CAPTURE</h3>
             <p className="text-muted-foreground text-sm">Real-time network traffic monitoring</p>
           </div>
           <div className="text-center">
             <div className="w-12 h-12 rounded-full bg-neon-purple/10 flex items-center justify-center mx-auto mb-4">
               <span className="font-display text-lg text-neon-purple">02</span>
             </div>
-            <h3 className="font-display text-sm text-neon-purple mb-2">AI ANALYSIS</h3>
+            <h3 className="font-display text-sm text-foreground mb-2">AI ANALYSIS</h3>
             <p className="text-muted-foreground text-sm">Anomaly detection & classification</p>
           </div>
           <div className="text-center">
             <div className="w-12 h-12 rounded-full bg-neon-pink/10 flex items-center justify-center mx-auto mb-4">
               <span className="font-display text-lg text-neon-pink">03</span>
             </div>
-            <h3 className="font-display text-sm text-neon-pink mb-2">ALERT & PROTECT</h3>
+            <h3 className="font-display text-sm text-foreground mb-2">ALERT & PROTECT</h3>
             <p className="text-muted-foreground text-sm">Instant threat prevention</p>
           </div>
         </div>
