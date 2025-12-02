@@ -35,7 +35,7 @@ const Footer = () => {
           {/* Hackathon Badge */}
           <div className="glass px-4 py-2 rounded-full">
             <span className="text-sm text-muted-foreground">
-              Built for <span className="text-neon-pink font-display">Hackathon 2024</span>
+              Built for <span className="text-neon-pink font-display">Hackathon 2025</span>
             </span>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 text-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 JeFi AI. Protecting banks with AI-driven intelligence.
+            © 2025 JeFi AI. Protecting banks with AI-driven intelligence.
           </p>
         </div>
       </div>
